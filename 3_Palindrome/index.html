@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+            function palindrome(str){
+                let reversed = str.split("").reverse().join("")
+                if (str === reversed) {
+                 console.log(`${str} is a palindrome`);    
+                } else {
+                console.log(`${str} is not a palindrome`);
+                }
+            }
+
+        palindrome('racecar')
+        palindrome("ey edip adanada pide ye")
+        palindrome("merhaba")
+
+
+
+        // let str;
+        // function palindrome(str) {
+        //     var reg = /[\W_]/g;
+
+        //     var smallStr = str.toLowerCase().replace(reg,"")
+
+        //     console.log(smallStr);
+
+        //     let reversed = smallStr.split("").reverse().join("")
+        //     if (smallStr === reversed) {
+        //         console.log(`${str} is a palindrome`);    
+        //     } else {
+        //         console.log(`${str} is not a palindrome`);
+        //     }
+        // }
+
+        // palindrome('racecar')
+        // palindrome("ey edip adanada pide ye")
+        // palindrome("merhaba")
+
+
+    
+
+
+    </script>
+</body>
+</html>
