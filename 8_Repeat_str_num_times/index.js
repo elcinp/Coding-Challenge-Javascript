@@ -1,13 +1,13 @@
-// function repeatStringNumTimes(str,num) {
-//     if(num<0) return ""
-//     let repeatedStr = ""
-//     for (let i=0;i<num;i++) {
-//         repeatedStr += str
-//     }
+function repeatStringNumTimes(str,num) {
+    if(num<0) return ""
+    let repeatedStr = ""
+    for (let i=0;i<num;i++) {
+        repeatedStr += str
+    }
     
-//     return repeatedStr;
-// }
-// console.log(repeatStringNumTimes("ara",0))
+    return repeatedStr;
+}
+console.log(repeatStringNumTimes("hello",3))
 
 
 
@@ -16,7 +16,11 @@
 //     return str.repeat(num);
 // }
 
-// repeatStringNumTimes("hello",4)
+// console.log(repeatStringNumTimes("hello",1));
 
 
-function repeatStringNumTimes(str,num)
+// function repeatStringNumTimes(str,num){
+//     if(num<0) return "";
+//     if(num === 1) return str;
+//     return str + repeatStringNumTimes(str,num-1)
+// }
