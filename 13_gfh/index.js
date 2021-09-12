@@ -1,1 +1,1 @@
-const showInfo =
+const showInfo = "huggg"
