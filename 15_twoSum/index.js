@@ -1,3 +1,3 @@
 function twoSum(name,number) {
-    let arr = []
+    let arr = [1,2,3]
 }
