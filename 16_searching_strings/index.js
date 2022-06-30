@@ -1,0 +1,1 @@
+//Bir string içerisindeki  sayıları bulup toplamını bulma
