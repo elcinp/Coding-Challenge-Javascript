@@ -14,7 +14,6 @@
 
 function repeatedNums(arr) {
   const count = {};
-  const result = [];
 
   arr.forEach((item) => {
     if (count[item]) {
@@ -23,7 +22,10 @@ function repeatedNums(arr) {
     }
     count[item] = 1;
   });
-
-  return count;
+  let result = Object.values(count);
+  result.sort((a,b)=>{
+    return b-a
+  }) 
+  return result[0];
 }
-console.log(repeatedNums([1,1,2,3,4,4,4,5]));
+console.log(repeatedNums([1, 1, 2, 3, 4, 4, 4,,4, 5]));
