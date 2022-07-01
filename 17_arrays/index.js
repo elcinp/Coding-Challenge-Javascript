@@ -3,3 +3,9 @@
 // Output:2
 // Mesela: [1,2,3,4]
 // Output:0
+
+function repeatedNums(arr){
+
+    
+    return arr
+}
