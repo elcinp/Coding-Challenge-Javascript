@@ -22,10 +22,11 @@ function repeatedNums(arr) {
     }
     count[item] = 1;
   });
+
   let result = Object.values(count);
-  result.sort((a,b)=>{
-    return b-a
-  }) 
+  result.sort((a, b) => {
+    return b - a;
+  });
   return result[0];
 }
-console.log(repeatedNums([1, 1, 2, 3, 4, 4, 4,,4, 5]));
+console.log(repeatedNums([1, 1, 2, 3, 4, 4, 4, , 4, 5]));
