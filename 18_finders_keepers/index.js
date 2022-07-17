@@ -3,4 +3,5 @@ function findElement(arr, func) {
     return num;
   }
   
+  
 findElement([1, 2, 3, 4], num => num % 2 === 0);
