@@ -1,1 +1,1 @@
-let newArr
+let newArr =[]
